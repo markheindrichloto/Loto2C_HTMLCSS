@@ -1,0 +1,247 @@
+/*external*/
+
+body{
+	background-color: dimgrey;
+	font-family: Century Gothic;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+div.header img{
+	width: 600px;
+}
+
+
+div.wrapper{
+	background-color: white;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	border-top: 10px solid goldenrod;
+	border-bottom: 10px solid goldenrod;
+
+}
+
+div.header{
+	padding: 20px;
+}
+
+div.nav{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+div.nav ul{
+	margin: 0;
+	padding: 10px 0;
+}
+
+div.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+div.nav ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+div.nav ul li a:hover{
+	background-color: grey;
+	color: white;
+}
+
+div.nav ul li a.active{
+	color: #D35400;
+}
+
+div.banner, div.banner img{
+	width: 100%;
+	height: 250px;
+}
+
+div.left-side-bar{
+	width: 190px;
+	float: left;
+	border: 1px solid black;
+	min-height: 50px;
+	margin: 10px 10px 10px 0;
+}
+
+div.left-side-bar h2{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	color: grey;
+	text-transform: uppercase;
+}
+
+div.left-side-bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.left-side-bar ul li{
+	text-align: center;
+	margin: 0;
+	border-bottom: solid white;
+}
+
+div.left-side-bar ul li a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	background-color: grey;
+	width: 100%;
+	padding: 5px 0 5px 0;
+	font-weight: bold;
+}
+
+div.content{
+	float:left;
+	width: 550px;
+	min-height: 500px;
+	margin: 10px
+}
+
+div.content h1{
+	padding: 0;
+	margin: 0;
+	color: grey;
+	font-size: 30px;
+	border-bottom: 1px dotted black;
+}
+
+div.content h2{
+	color: black;
+}
+
+div.content p{
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 50px;
+}
+
+div.right-side-bar{
+	text-decoration: none;
+	width: 200px;
+	float: right;
+	margin: 10px 0 10px 10px;
+	border: 1px solid black;
+	min-height: 50px;
+}
+
+div.right-side-bar ul{
+	margin: 0;
+	padding: 20px;
+}
+
+div.right-side-bar ul li{
+	list-style-type: none;
+}
+
+div.right-side-bar ul li img{
+	width: 100%;
+}
+
+div.footer{
+	clear: both;
+	border-top: 1px solid	black;
+	padding: 10px;
+	text-align: center;
+	background-color: grey;
+}
+
+div.footer p{
+	font-weight: bold;
+}
+
+div.footer img{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Contacts*/
+form{
+	border: 1px solid black;
+	background-color: grey;
+	color: white;
+	padding: 20px;
+	width: 70%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+	box-sizing: border-box;
+	margin: 0px auto;
+}
+
+form input, form select{
+	margin-top: 5px;
+	padding: 10px 0 10px 0;
+	font-family: Arial;
+	width: 100%;
+}
+
+form textarea{
+	width: 100%;
+	height: 200px;
+}
+
+form select option{
+	font-size: 17px;
+}
+
+form button{
+	border-radius: 20px;
+	padding:8px 10px;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	color: black	
+	width: 80px;
+}
+
+form button:hover{
+	background-color: grey;
+	transition: 0.4s ease-in-out;
+	color: white;
+	font-weight: bold;
+}
+
+form input#chkPC,#chkLP,#chkSP,#chkTL,#rdSex, #BGColor{
+	width: 50px;
+	padding: 0;
+}
+
+div.content-contact{
+	float:left;
+	width: 740px;
+	min-height: 500px;
+	margin: 10px
+}
+
+div.content-contact h1{
+	padding: 0;
+	margin: 0;
+	color: grey;
+	font-size: 30px;
+	border-bottom: 1px dotted black;
+}
+
+div.content-contact h2{
+	color: black;
+	text-align: center;
+}
+
+div.content-contact p{
+	text-align: center;
+	line-height: 1.5;
+}
+
+

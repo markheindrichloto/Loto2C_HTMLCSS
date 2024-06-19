@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bank of the Philippine Islands | BPI - Contact Us</title>
+	<link rel = "stylesheet" type= "text/css" href= "../css/style.css">
+
+	<script type="text/javascript">
+		
+		function changeText(){
+			let text = prompt("Please Enter a Text");
+			if (text == null || text =="") {
+				alert("No input")
+			}
+			else{
+				document.getElementById('toChangeText').innerHTML = text;
+			}
+		}
+
+	</script>
+</head>
+<body>
+	<div class ="wrapper">
+		<div class="header">
+			<img src = "../images/logo.png">
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="contacts.html" class="active">Contact</a></li>
+			</ul>
+		</div>
+		<div class="banner">
+			<img src="../images/standard.jpg">
+			
+		</div>
+		<div class="main">
+			
+			<div class="content-contact">
+				<h1 id="toChangeText" onclick="changeText()">Contact Us</h1>
+				<h2>Contact Form</h2>
+				<p>Please use this to send us your questions and inquiry.</p>
+
+				<form name="contactForm" method="" action="">
+					<label>Name:</label><br>
+					<input type="text" id="txtName" name="txtName" placeholder="Enter Your Name" required> </input><br><br>
+					<label>Email:</label><br>
+					<input type="email" name="txtEmail" id="txtEmail" required placeholder="Enter Your Email"><br><br>
+
+					<label>Contact Number:</label><br>
+					<input type="tel" name="txtCNumber" id="txtCNumber" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="XXX-XXX-XXXX"><br><br>
+
+					<label>Age:</label><br>
+					<input type="numb" name="txtAge" id="txtAge"><br><br>
+
+					<label>Birth Date:</label><br>
+					<input type="date" name="txtBday" id="txtBday"><br><br>
+
+					<label>Sex:</label><br>
+					<input type="radio" name="rdSex" id="rdSex"><label>Male</label><br>
+					<input type="radio" name="rdSex" id="rdSex"><label>Female</label><br>
+					<input type="radio" name="rdSex" id="rdSex"><label>Other</label><br>
+					<input type="radio" name="rdSex" id="rdSex"><label>Prefer Not to Say</label><br>
+					<input type="radio" name="rdSex" id="rdSex"><label>None of the Above	</label><br><br>
+
+					<label> Message</label><br>
+					<textarea></textarea>
+
+					<button type="submit">SUBMIT</button>
+					<button type="reset">CLEAR</button><br>
+
+				</form>
+			</div>
+			<div class="right-side-bar">
+				<ul>
+					<li><img src="../images/side-bars/w0.png"></li>
+					<li><img src="../images/side-bars/w1.jpg"></li>
+					<li><img src="../images/side-bars/w2.jpg"></li>
+					<li><img src="../images/side-bars/w3.jpg"></li>
+					<li><img src="../images/side-bars/w4.jpg"></li>
+
+
+				</ul>
+
+			</div>
+			<div class="footer">
+				<p>&copy; 2024 Standard Insurance<br> All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
